@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "hope-storie-app",
-    "slug": "hope-storie-app",
+    "slug": "hope",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.imnotvirus.hope"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.imnotvirus.hope"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63ea074d-504d-4987-817d-05cfc4c38fc2"
+      }
+    },
+    "owner": "imnotvirus"
   }
 }
